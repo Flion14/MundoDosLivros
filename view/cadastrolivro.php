@@ -71,7 +71,7 @@ img VARCHAR(100),-->
     }
 
 
-  $sql="INSERT INTO livro(qtd_estoque, nome, preco, cod_editora, img, promo VALUES('$_POST[title]','$_POST[cod_ed]','$_POST[price]','$_POST[promo]');";
+  $sql="INSERT INTO livro(qtd_estoque, nome, preco, cod_editora, img, promo VALUES('$_POST[title]','$_POST[cod_ed]','$_POST[price]',$newfilename,'$_POST[promo]');";
 
 
 
