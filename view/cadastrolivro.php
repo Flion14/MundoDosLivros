@@ -88,9 +88,4 @@ img VARCHAR(100),-->
   }
 
       }
-
-  $consulta="SELECT  FROM livro;";
-  $result=mysqli_query($conexao, $consulta);
-
-  if(isset($_POST["title"]) && $_POST["title"] != ""
 ?>
